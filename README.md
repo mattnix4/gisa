@@ -29,7 +29,7 @@ print(word)  # outputs "enina ambiny valopolo sy dimanjato"
 
 ## Limitations
 
-Please note that gisa.manisa only supports numbers up to 10^13, beyond which it returns an error message. Also, the package currently only supports the Malagasy language.
+While Gisa is able to convert whole numbers to their Malagasy word representations, it may have limitations when it comes to converting decimal numbers. Also, the package currently only supports the Malagasy language.
 
 ## License
 
