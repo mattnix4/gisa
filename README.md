@@ -10,7 +10,6 @@ You can install gisa.manisa using pip:
 pip install gisa
 ```
 
-
 ## Usage
 
 To use gisa, you need to import it first:
@@ -29,9 +28,8 @@ print(word)  # outputs "enina ambiny valopolo sy dimanjato"
 
 ## Limitations
 
-While Gisa is able to convert whole numbers to their Malagasy word representations, it may have limitations when it comes to converting decimal numbers. Also, the package currently only supports the Malagasy language.
+It's important to note that the "gisa" package does not currently include functionality to convert Malagasy words to their numerical value. The int_to_word and float_to_word functions are designed to convert numbers to their Malagasy word representation, but there is no equivalent function to convert Malagasy words back to their numerical value. Also, the package currently only supports the Malagasy language.
 
 ## License
 
 This package is licensed under the MIT License. See the LICENSE file for more information.
-

@@ -7,7 +7,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='gisa', # This is the name of the package
-    version='1.0.1', # The release version
+    version='1.0.2', # The release version
     description=(
         "Gisa is a Python package that converts numbers into Malagasy words."
         "Returns its corresponding Malagasy word representation."
